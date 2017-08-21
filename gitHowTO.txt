@@ -74,7 +74,7 @@ sarthak@sarora:~/Mydata/Studies/gitTutorial$ git status -s
 to check what changes have occured do [this tells you the difference btw current local file and the file in the repo]
 $ git diff
 
-################################################################
+##########################  EXAMPLE  #######################################
 sarthak@sarora:~/Mydata/Studies/gitTutorial$ git diff
 diff --git a/gitTest.txt b/gitTest.txt
 index f6edd6e..c8924b6 100644
@@ -84,8 +84,25 @@ index f6edd6e..c8924b6 100644
 -git test
 +Hello git test
 
-#############################################################
+############################################################################
+
+$ git diff --cached    ## works when you have already added the git file to the staging area and git diff would should no differnce
 
 
+
+##############################  EXAMPLE  ###################################
+sarthak@sarora:~/Mydata/Studies/gitTutorial$ git diff
+sarthak@sarora:~/Mydata/Studies/gitTutorial$ git diff --cached
+diff --git a/gitTest.txt b/gitTest.txt
+index c8924b6..cfb74e9 100644
+--- a/gitTest.txt
++++ b/gitTest.txt
+@@ -1 +1,2 @@
+ Hello git test
++hello git again
+\ No newline at end of file
+sarthak@sarora:~/Mydata/Studies/gitTutorial$ 
+
+###########################################################################
 
 
