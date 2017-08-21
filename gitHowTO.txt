@@ -119,3 +119,21 @@ use ssh-keygen -t rsa -C "sarthak10193@gmail.com"   # -t what type of key  ;  -C
 take the public key from cd ~/.ssh/rsa_key.pub and paste it on github ssh area
 
 
+# now just ssh to git server
+ssh -T git@github.com
+
+
+###############################   EXAMPLE ###################################
+
+ssh -T git@github.com
+Warning: Permanently added the RSA host key for IP address '192.30.255.112' to the list of known hosts.
+Hi sarthak10193! You've successfully authenticated, but GitHub does not provide shell access.
+sarthak@sarora:~/Mydata/Studies/gitTutorial$ ssh -T git@github.com
+
+#############################################################################
+
+$ git remote add origin git@github.com:sarthak10193/TestingGit.git     # tells git to add a remote repo and not a local repo instead. tell where that origin is ie "git@github.com:sarthak10193/TestingGit.git" 
+
+# at this point my local git knows where origin is an has authentication via ssh
+
+
