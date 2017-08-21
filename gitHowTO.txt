@@ -132,8 +132,10 @@ sarthak@sarora:~/Mydata/Studies/gitTutorial$ ssh -T git@github.com
 
 #############################################################################
 
-$ git remote add origin git@github.com:sarthak10193/TestingGit.git     # tells git to add a remote repo and not a local repo instead. tell where that origin is ie "git@github.com:sarthak10193/TestingGit.git" 
+$ git remote add orign git@github.com:sarthak10193/TestingGit.git     # tells git to add a remote repo and not a local repo instead. tell where that origin is ie "git@github.com:sarthak10193/TestingGit.git" 
 
 # at this point my local git knows where origin is an has authentication via ssh
+
+$ git push orign master    # push/upload code to orign repo , branch ?? master
 
 
