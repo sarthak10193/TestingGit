@@ -106,3 +106,16 @@ sarthak@sarora:~/Mydata/Studies/gitTutorial$
 ###########################################################################
 
 
+$ git log                             							# gives the log list of commits done
+$ git log --oneline 											# a succint version of the logs with fewer details as compared to git log
+
+
+==================================================================================================================================================================
+
+Until now we have been moving code from local working dir ==> staging area ==> local repository 
+To push this code to a remote Git Repo, we simply need to add ssh keys and then push code.
+
+use ssh-keygen -t rsa -C "sarthak10193@gmail.com"   # -t what type of key  ;  -C enter some comment
+take the public key from cd ~/.ssh/rsa_key.pub and paste it on github ssh area
+
+
